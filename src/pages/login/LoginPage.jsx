@@ -25,7 +25,6 @@ export default function LoginPage() {
         {
           pending: "Logando...",
           success: "Logado",
-          // error:"E-mail ou senha incorretos"
          
         },
         { style: { width: "200px", height: "40px" }, position: "top-center" }

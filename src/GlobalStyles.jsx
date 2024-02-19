@@ -3,7 +3,7 @@ import { createGlobalStyle } from "styled-components";
 const GlobalStyle = createGlobalStyle`
 #root{
     min-width: 100vw;
-    max-height: 100%;
+    height: 100vh;
     margin: 0 auto;
     overflow-x: hidden;
 
