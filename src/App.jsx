@@ -1,13 +1,14 @@
 import { ToastContainer } from "react-toastify";
-import Router from "./Routes/Router";
+import Router from "./routes/Router"
 import GlobalState from "./context/GlobalState";
 import "react-toastify/dist/ReactToastify.css";
+
 
 function App() {
   return (
     <>
       <GlobalState>
-        <Router />
+        <Router/>
         <ToastContainer autoClose={1500}/>
       </GlobalState>
     </>
