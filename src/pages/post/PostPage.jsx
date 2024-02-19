@@ -139,7 +139,7 @@ export default function PostPage() {
             <SectionComment>
               <button onClick={() => goToCommentPage(navigate, p.id)}>
                 <img src={commentIcon} alt="Icone de comentários" />
-                <p>{p.commentLength}</p>
+                <p>{p.quantityComments}</p>
               </button>
             </SectionComment>
           </SectionCommentsAndLikes>
