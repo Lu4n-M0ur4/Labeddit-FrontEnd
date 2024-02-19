@@ -57,7 +57,7 @@ export const MainContainer = styled.main`
     }
   }
 
-  @media (max-width: 376px) {
+  @media (max-width: 420px) {
     width: 375px;
     Header {
       justify-content: space-between;

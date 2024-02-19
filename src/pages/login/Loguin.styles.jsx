@@ -7,10 +7,10 @@ export const MainContainer = styled.main`
   align-items: center;
 
   width: 428px;
-  height: 926px;
+  height: 100vh;
   background-color: #fff;
   margin: 0 auto;
-
+  
   img {
     padding: 133px 134px 0;
   }
@@ -25,14 +25,14 @@ export const MainContainer = styled.main`
 
     margin: 0px;
   }
-  @media (min-width: 429px) {
+  @media (min-width: 420px) {
     width: 100vw;
     height: 100vh;
     img {
       min-width: 250px;
     }
   }
-  @media (max-width: 376px) {
+  @media (max-width: 420px) {
     width: 375px;
     height: auto;
     display: flex;
@@ -52,17 +52,27 @@ export const MainContainer = styled.main`
   }
 `;
 export const FormContainer = styled.form`
-  display: flex;
+    display: flex;
+    align-items: center;
   flex-direction: column;
   font-family: 'Noto Sans', sans-serif;
   font-size: 16px;
   line-height: 21x;
 
-  @media (max-width: 376px) {
+  @media (min-width: 420px) {
+    width: auto;
+    height: 100vh;
+    img {
+      min-width: 250px;
+    }
+  }
+
+  @media (max-width: 420px) {
     width: auto;
     display: flex;
     align-items: center;
   }
+
 `;
 export const InputContainer = styled.div`
   display: flex;
@@ -84,8 +94,11 @@ export const InputContainer = styled.div`
       font-weight: 400;
       font-size: 16px;
     }
-    
-    @media (max-width: 376px) {
+    /* @media (max-width: 420px) {
+   
+    padding: 0 10px;
+    } */
+    @media (max-width: 420px) {
       width: 80vw;
       margin: 0 auto;
       background-color: #ffffff;
@@ -98,9 +111,9 @@ export const ButtonsContainer = styled.div`
   display: flex;
   flex-direction: column;
   gap: 15px;
-  padding: 0px 39px 65px 26px;
+  padding: 0px 39px auto 26px;
 
-  @media (max-width: 376px) {
+  @media (max-width: 420px) {
 padding-bottom: 10px;
     
   }
@@ -129,7 +142,7 @@ padding-bottom: 10px;
       color: #fe7e02;
     }
 
-    @media (max-width: 376px) {
+    @media (max-width: 420px) {
       align-self: center;
       width: 50vw;
     
@@ -148,7 +161,7 @@ export const GradientHR = styled.div`
     rgba(249, 178, 78, 1) 100%
   );
 
-  @media (max-width: 376px) {
+  @media (max-width: 420px) {
       align-self: center;
       width: 100%;
     

@@ -55,7 +55,7 @@ export const MainContainer = styled.main`
       padding-right: 20px;
     }
   }
-  @media (max-width: 376px) {
+  @media (max-width: 420px) {
     width: 375px;
     Header {
       justify-content: center;
@@ -101,7 +101,7 @@ export const FormContainer = styled.form`
       font-size: 18px;
     }
 
-    @media (max-width: 376px) {
+    @media (max-width: 420px) {
       width: 300px;
       padding: 0 auto;
 
@@ -118,7 +118,7 @@ export const FormContainer = styled.form`
     }
   }
 
-  @media (max-width: 376px) {
+  @media (max-width: 420px) {
     width: 375px;
     height: auto;
     display: flex;
@@ -209,7 +209,7 @@ export const Container = styled.div`
     }
   }
 
-  @media (max-width: 376px) {
+  @media (max-width: 420px) {
     width: 300px;
   
   }

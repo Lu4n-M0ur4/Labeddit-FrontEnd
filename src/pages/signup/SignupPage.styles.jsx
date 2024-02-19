@@ -54,7 +54,7 @@ export const MainContainer = styled.main`
     }
   }
 
-  @media (max-width: 376px) {
+  @media (max-width: 420px) {
     width: 375px;
     height: auto;
     display: flex;
@@ -103,7 +103,7 @@ export const Title = styled.div`
     }
   }
 
-  @media (max-width: 376px) {
+  @media (max-width: 420px) {
     width: 350px;
     height: 80px;
     padding-bottom: 70px;
@@ -130,7 +130,7 @@ export const FormContainer = styled.form`
   font-size: 16px;
   line-height: 2;
 
-  @media (max-width: 376px) {
+  @media (max-width: 420px) {
     width: auto;
     display: flex;
     align-items: center;
@@ -161,7 +161,7 @@ export const InputContainer = styled.div`
     @media (min-width: 699px) {
       height: 60px;
     }
-   @media (max-width: 376px) {
+   @media (max-width: 420px) {
       width: 80vw;
       margin: 0 auto;
       background-color: #ffffff;
@@ -211,7 +211,7 @@ export const SectionContainer = styled.section`
 
 
   
-  @media (max-width: 376px) {
+  @media (max-width: 420px) {
     width: 350px;
     height: 60px;
     align-items: center;
