@@ -52,7 +52,7 @@ Na página, os usuários podem interagir com os posts, acompanhando os comentár
 
 ## 3. Lista de Funcionalidades
 
-O Labeddit oferece diversas funcionalidades aos usuários, incluindo um CRUD completo de posts :
+O Labeddit oferece diversas funcionalidades aos usuários :
 
 - Login de usuário
 - Cadastro de usuário
