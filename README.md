@@ -3,8 +3,6 @@
 
 Deploy da aplicação [AQUI](https://labeddit-front-end-nu.vercel.app/) !
 
-Documentação do Backend da aplicação [AQUI](https://documenter.getpostman.com/view/28316317/2sA2r9UhLq) !
-
 Protótipo figma da aplicação [AQUI](https://www.figma.com/file/Byakv89sjTqI6NG2NRAAKJ/Projeto-Integrador-Labeddit?type=design&node-id=0-1&mode=design) !
 
 Repositório da aplicação Backend [AQUI](https://github.com/Lu4n-M0ur4/LabEddit) !
